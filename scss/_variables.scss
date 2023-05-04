@@ -19,3 +19,11 @@ $map-flex:(
     space-between: space-between,
     center: center
 );
+@mixin mobile-mediaqueries{
+    @media screen and (min-width: 0px) and (max-width: 768px){
+        @content;
+    }
+}
+@include mobile-mediaqueries{
+    
+}

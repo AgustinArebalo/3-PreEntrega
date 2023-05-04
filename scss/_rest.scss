@@ -55,3 +55,56 @@
         }
     }
 }
+@include mobile-mediaqueries{
+    .fondo {
+        background-color:$background-color-main;
+    
+        .section2 {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            transform: scale(0.95);
+            border-radius: 20px;
+            background-color:$beige;
+            padding: 50px;
+        }
+        .menu {
+            background-color:$beige;
+            display: flex;
+            justify-content: center;
+            padding: 80px;
+            width: 95%;
+            margin:$margin;
+            border-radius: 20px;
+            box-shadow: $bordes-negros;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            align-items: center;
+        }
+        .flex {
+            display: flex;
+            .main__res__sectionCasa {
+                background-color:$beige;
+                padding: $padding_80;
+                width: 95%;
+                margin:$margin;
+                border-radius: 20px;
+                box-shadow: $bordes-negros;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                align-items: center;
+            }
+    
+            .main__res__sectionCasa2 {
+                background-color:$beige;
+                padding:$padding_80;
+                width: 95%;
+                margin:$margin;
+                border-radius: 20px;
+                box-shadow: $bordes-negros;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                align-items: center;
+            }
+        }
+    }
+}
