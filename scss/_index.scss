@@ -1,9 +1,58 @@
-
 .fondo {
     $color-main: rgb(214, 214, 194);
 
-    .newen {
-        .section {
+        .newen {
+            .section {
+                background-color: $color-header-footer;
+                display: $flex;
+                justify-content: space-between;
+                padding: $padding_80;
+                width: $width_70;
+                height: 50vh;
+                margin: $margin;
+                border-radius: 20px;
+                box-shadow: $bordes-negros ;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+                .parrafo {
+                    .h2 {
+                        margin: 0;
+                        color: rgb(0, 0, 0);
+                    }
+
+                    .parra {
+                        margin-right: 15px;
+                        font-size: 20px;
+                    }
+                }
+
+                .imag {
+                    width: 300px;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .section3 {
+            background-color: $color-header-footer;
+            display: $flex;
+            justify-content: center;
+            padding: $padding_80;
+            width: $width_70;
+            margin: $margin;
+            border-radius: 20px;
+            box-shadow: $bordes-negros;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 20px;
+        }
+
+        .mapas {
+            margin-top: 50px;
+        }
+
+        .section9 {
             background-color: $color-header-footer;
             display: $flex;
             justify-content: space-between;
@@ -12,59 +61,9 @@
             height: 50vh;
             margin: $margin;
             border-radius: 20px;
-            box-shadow: $bordes-negros ;
+            box-shadow: $bordes-negros;
             margin-top: 50px;
             margin-bottom: 50px;
-
-            .parrafo {
-                .h2 {
-                    margin: 0;
-                    color: burlywood;
-                }
-
-                .parra {
-                    margin-right: 15px;
-                    font-size: 20px;
-                }
-            }
-
-            .imag {
-                width: 300px;
-                border-radius: 20px;
-            }
         }
-    }
-
-    .section3 {
-        background-color: $color-header-footer;
-        display: $flex;
-        justify-content: center;
-        padding: $padding_80;
-        width: $width_70;
-        margin: $margin;
-        border-radius: 20px;
-        box-shadow: $bordes-negros;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        font-size: 20px;
-    }
-
-    .mapas {
-        margin-top: 50px;
-    }
-
-    .section9 {
-        background-color: $color-header-footer;
-        display: $flex;
-        justify-content: space-between;
-        padding: $padding_80;
-        width: $width_70;
-        height: 50vh;
-        margin: $margin;
-        border-radius: 20px;
-        box-shadow: $bordes-negros;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
 }
 
