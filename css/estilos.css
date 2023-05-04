@@ -1,6 +1,15 @@
+.borde { /* @extend no me deja*/
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
 .header {
   display: flex;
-  height: 100px;
+  height: 170px;
   background-color: rgb(221, 221, 196);
   justify-content: space-between;
   align-items: center;
@@ -14,8 +23,8 @@
   color: black;
 }
 .header .header__logotipo .header__logotipo__logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-right: 10px;
 }
 
@@ -70,20 +79,14 @@
   background-color: rgb(206, 206, 185);
 }
 .fondo .section4 {
-  margin-top: 50px;
   margin-bottom: 50px;
   transform: scale(0.75);
   border-radius: 20px;
   background-color: beige;
-  padding: 30px;
+  padding: 50px;
 }
 .fondo .menu {
   background-color: beige;
-  /*display: $flex;
-  /*justify-content: center;
-  /*padding: $padding_80;
-  width: 50%;
-  margin: $margin;*/
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-top: 50px;
@@ -96,7 +99,7 @@
 .fondo .flex .main__res__sectionCasa {
   background-color: beige;
   padding: 80px;
-  width: 30%;
+  width: 40%;
   margin: auto;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -107,8 +110,9 @@
 .fondo .flex .main__res__sectionCasa2 {
   background-color: beige;
   padding: 80px;
-  width: 30%;
+  width: 40%;
   margin: auto;
+  height: auto;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-top: 50px;
@@ -381,6 +385,14 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .fondo .section9 .mapa1 {
+    width: auto;
+    height: auto;
+  }
+  .fondo .section9 .mapa2 {
+    width: auto;
+    height: auto;
+  }
 }
 .colorFondoN {
   display: flex;
@@ -426,21 +438,15 @@
 .fondo {
   background-color: rgb(206, 206, 185);
 }
-.fondo .section4 {
-  margin-top: 50px;
+.fondo .section15 {
   margin-bottom: 50px;
   transform: scale(0.75);
   border-radius: 20px;
   background-color: beige;
-  padding: 30px;
+  padding: 50px;
 }
 .fondo .menu {
   background-color: beige;
-  /*display: $flex;
-  /*justify-content: center;
-  /*padding: $padding_80;
-  width: 50%;
-  margin: $margin;*/
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-top: 50px;

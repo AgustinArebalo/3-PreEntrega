@@ -1,29 +1,39 @@
-$flex:flex;
-$flex-direction:column;
+$flex: flex;
+$flex-direction: column;
 $color-header-footer: rgb(221, 221, 196);
 $color-main: rgb(214, 214, 194);
-$bordes-negros:10px 10px 10px rgb(0, 0, 0);
-$padding_80:80px;
-$width_70:70%;
-$margin:auto;
-$background-color:rgb(214, 214, 194);
-$background-color-main:rgb(206, 206, 185);
-$beige:beige;
-$desktop:768px;
+$bordes-negros: 10px 10px 10px rgb(0, 0, 0);
+$padding_80: 80px;
+$width_70: 70%;
+$margin: auto;
+$background-color: rgb(214, 214, 194);
+$background-color-main: rgb(206, 206, 185);
+$beige: beige;
+$desktop: 768px;
 
 
-$map-flex:(
+$map-flex: (
     flex: flex,
     column: column,
     row: row,
     space-between: space-between,
     center: center
 );
-@mixin mobile-mediaqueries{
-    @media screen and (min-width: 0px) and (max-width: 768px){
+
+.borde { /* @extend no me deja*/
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+@mixin mobile-mediaqueries {
+    @media screen and (min-width: 0px) and (max-width: 768px) {
         @content;
     }
 }
-@include mobile-mediaqueries{
-    
-}
+
+@include mobile-mediaqueries {}

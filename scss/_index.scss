@@ -117,6 +117,7 @@
                 margin-top: 50px;
                 margin-bottom: 50px;
                 font-size: 20px;
+                
             }
     
             .mapas {
@@ -134,6 +135,14 @@
                 box-shadow: $bordes-negros;
                 margin-top: 50px;
                 margin-bottom: 50px;
+                .mapa1{
+                    width: auto;
+                    height: auto;
+                }
+                .mapa2{
+                    width: auto;
+                    height: auto;
+                }
             }
     }
 }

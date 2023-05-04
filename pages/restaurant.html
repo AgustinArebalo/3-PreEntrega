@@ -1,681 +1,694 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurant</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link href="../css/estilos.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c685b2b453.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="../assets/img/favicon.jpg" type="image/x-icon">
-    </head>
-    <body>
-        <header class="header">
-            <a href="../index.html" class="header__logotipo">
-              <img class="header__logotipo__logo" src="../assets/img/logotipo1.jpg" alt="te lleva al inicio">
-              <h1 class="logoNombre animate__animated animate__bounceInRight  nimate__slower animate__repeat-1">Newen</h1>
-            </a>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./casa_de_comidas.html">Casa De Comidas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pedi_por_aca.html">Hace tu Pedido</a>
-                  </li>
-                </div>
-              </div>
-            </nav>
-          </header>
-        <main class="fondo">
-          <div class="section2">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../assets/img/res 1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="../assets/img/res 2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="../assets/img/res 3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="../assets/img/res 4.jpg" class="d-block w-100" alt="...">
-                </div><div class="carousel-item">
-                  <img src="../assets/img/res 5.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <div class="menu">
-            <h1>Menu</h1>
-          </div>
-          <div class="flex">
-            <div class="main__res__sectionCasa">
-              <h4>Entradas</h4>
-              <ul>
-                  <li>
-                      Matambre casero	      $****
-                  </li>
-                  <li>
-                      Vithel Tonné	          $****
-                  </li>
-                  <li>
-                      Mayonesa de ave        $****
-                  </li>
-                  <li>
-                      Mayonesa de atún	      $****
-                  </li>
-                  <li>
-                      Salpicón de ave	      $****
-                  </li>
-                  <li>
-                      Milanesa de muzzarella $****
-                  </li>
-                  <li>
-                      Tomate relleno con atun $****
-                  </li>
-                  <li>
-                      Tomate relleno con ave $****
-                  </li>
-                  <li>
-                      Lengua a la vinagrera   $****  
-                  </li>
-              </ul>
-              <h4>Empanadas</h4>
-              <ul>
-                  <li>
-                      <>Carne - Pollo - Verdura - jyq - queso y Cebolla	      $****
-                  </li>
-              </ul>
-              <h4>Tartas</h4>
-              <ul>
-                  <li>
-                    Jamon y Queso	      $****
-                  </li>
-                  <li>
-                    Verdura	      $****
-                  </li>
-              </ul>
-              <h4>Omelettes</h4>
-              <ul>
-                <li>
-                  Omelette jamon y queso $****
-                </li>
-                <li>
-                  Omelette de champignones $****
-                </li>
-                <li>
-                  Omelette de esparragos $****
-                </li>
-                <li>
-                  Omelettes de camaranoes $****
-                </li>
-              </ul>
-              <h4>Papas fritas, Tortillas y Demas</h4>
-              <ul>
-                <li>
-                  Papas fritas $****
-                </li>
-                <li>
-                  Papas fritas provenzal  $****
-                </li>
-                <li>
-                  Papas pay  $****
-                </li>
-                <li>
-                  Papas noisette$****
-                </li>
-                <li>
-                  Papas Rejillas  $****
-                </li>
-                <li>
-                  Papas 4 Quesos  $****
-                </li>
-                <li>
-                  Papas Dunas $****
-                </li>
-                <li>
-                  Papas Medanos  $****
-                </li>
-                <li>
-                  Papas Pampa $****
-                </li>
-                <li>
-                  Papas Bosque $****
-                </li>
-                  <li>
-                    Tortilla de papas  $****
-                  </li>
-                  <li>
-                    Torilla de papa y cebolla    $****
-                  </li>
-                  <li>
-                    torilla Española  $****
-                  </li>
-                  <li>
-                    Torilla de Acelga                     $****
-                  </li>
-                  <li>
-                    Pure de papa o zapallo  $****
-                  </li>
-                  <li>
-                    pastel de papa  $****
-                  </li>
-                  <li>
-                    Revuelto gramajo   $****
-                  </li>
-                </ul>
-                <h4>Pastas Artesalanes</h4>
-                <ul>
-                  <li>
-                    Tallarines $****
-                  </li>
-                  <li>
-                    Tallarines Negros  $****
-                  </li>
-                  <li>
-                    Ñoquis de papa  $****
-                  </li>
-                  <li>
-                    Ñoquis de espinaca $****
-                  </li>
-                  <li>
-                    Ñoquis de calabaza  $****
-                  </li>
-                  <li>
-                    Ñoquis de remolacha  $****
-                  </li>
-                  <li>
-                    Ñoquis Rellenos de jamon y queso  $****
-                  </li>
-                  <li>
-                    Ravioles de verdura  $****
-                  </li>
-                  <li>
-                    Ravioles de Salmon  $****
-                  </li>
-                  <li>
-                    Canelones de verdura o carne  $****
-                  </li>
-                  <li>
-                    Sorrentinos de jamon y queso  $****
-                  </li>
-                  <li>
-                    Sorretinos de Camarones de rico y camarones  $****
-                  </li>
-                  <li>
-                    Lasagna de ricota y verdura  $****
-                  </li>
-                  <li>
-                    Agnolotis de ricota, jamon y nueces
-                  </li>
-                  <li>
-                    POrcion de Peceto  $****
-                  </li>
-                </ul>
-                <h4>Salsas Espaciales</h4>
-                <h5>para nuestros pastas</h5>
-                <ul>
-                    <li>
-                      4 Quesos  $****
-                    </li> 
-                    <li
-                    >roquefort, fontina, provolone, parmesano
-                    </li>
-                    <li>
-                      Parisiens  $****
-                    </li>
-                    <li>
-                      pollo, crema, jamon, aceitunes
-                    </li>
-                    <li>
-                      Salsa de calamar  $****
-                    </li>
-                    <li>
-                      calamar, salsa portuguesa
-                    </li>
-                    <li>
-                      Salsa verde  $****
-                    </li>
-                    <li>
-                      espinaca, crema
-                    </li>
-                    <li>
-                      Camarones  $****
-                    </li>
-                    <li>
-                      palmitos, camarones, crema, ketchup
-                    </li>
-                    <li>
-                      De Mar  $****
-                    </li>
-                    <li>
-                      camaron, calamar, berberecho, ajo, tomate
-                    </li>
-                    <li>
-                      Caruso  $****
-                    </li>
-                    <li>
-                      champignon, crema, hongos secos, perejil, jamon
-                    </li>
-                    <li>
-                      Principe de Napole  $****
-                    </li>
-                    <li>
-                      jamon, fileto, pollo, huevo
-                    </li>>
-                    <li>
-                      Salmon  $****
-                    </li>
-                    <li>
-                      salmon, parmesano, perejil y crema
-                    </li>
-                    <li>
-                      Romana
-                    </li>
-                    <li>
-                      ajo, aceitunas, tomate, champignon y perejil
-                    </li>
-                    <li>
-                      Finocchio  $****
-                    </li>
-                    <li>
-                      pollo, cebolla, crema, parmesano
-                    </li>
-                </ul>
-                <h4>Milanesas</h4>
-                <ul>
-                    <li>
-                      MIlanesa de Ternera  $****
-                    </l>
-                    <li>
-                      Milanesa Napolitana  $****
-                    </li>
-                    <li>
-                      jamon, queso, salsa de tomate
-                    </li>
-                    <li>
-                      Milanesa de Pllo  $****
-                    </li>
-                    <li>
-                      Milanesa de Pollo Napolitana  $**** 
-                    </li>
-                    <li>
-                      jamon, queso, salsa de tomate
-                    </li>
-                    <li>
-                      Milanesa Completa  $****
-                    </li>
-                    <li>
-                      papas fritas con huevo
-                    </li>
-                    <li>
-                      Milanesa Queca  $****
-                    </li>
-                    <li>
-                      jamon, queso, crema y pure
-                    </li>
-                    <li>
-                      Milanesa Suiza  $****
-                    </li>
-                    <li>
-                      muzzarela, crema y papas esapañolas
-                    </li>
-                    <li>
-                      Suprema Suiza  $****
-                    </li>
-                    <li>
-                      muzzarela, crema y papas españolas
-                    </li>
-                    <li>
-                      Suprema Roquefort  $****
-                    </li>
-                    <li>
-                      Suprema a la Mostaza  $****
-                    </li>
-                    <li>
-                      Suprema Diabla  $****
-                    </li>
-                    <li>
-                      anana, guindas, papas noicette
-                    </li>
-                </ul>
-                <h4>Pescados y Mariscos</h4>
-                <ul>
-                    <li>
-                      Salom rosado a la plancha  $****
-                    </li>
-                    <li>
-                      Salmon rosado espacial  $****
-                    </li>
-                    <li>
-                      Trucha entera a la plancha  $****
-                    </li>
-                    <li>
-                      Trucha entera especial $****
-                    </li>
-                    <li>
-                      Filet de merluza a la Romana  $****
-                    </li>
-                    <li>
-                      Filet de merluza espacial  $****
-                    </li>
-                    <li>
-                      Fliet de lenguado a la plancha $****
-                    </li>
-                    <li>
-                      FIlet de lenguado espacial  $****
-                    </li>
-                    <li>
-                      Gambas empandas  $****
-                    </li>
-                    <li>
-                      Gambas al ajillo $****
-                    </li>
-                    <li>
-                      Rabas  $****
-                    </li>
-                    <li>
-                      Rabas a la provenzal  $****
-                    </li>
-                    <li>
-                      Paella  $****
-                    </li>
-                    <li>
-                      Cazuela  $****
-                      </li>
-                    <li>
-                      Arrops con Mariscos  $****  
-                    </li>
-                    <li>
-                      Arroz con Calamares  $****
-                    </li>
-                    <li>
-                      Cornalitos  $****
-                    </li>
-                    <li>
-                      calamaretes  $****
-                    </li>
-                </ul>
-                <h5>Nuestros Platos especiales en Pescados vienen con guarnicion de Pure Duquesa con variedad de Salsas Roquefort, Mostaza, Crema o Camarones</h5>
-            </div>
-            <div class="main__res__sectionCasa2">
-              <h4>Carnes</h4>
-              <ul>
-                <li>
-                  Lonjitas de Lomo  $****
-                </li>
-                <li>
-                  Al Verdeo: cebolla de verdero, crema, papas noicette  $****
-                </li>
-                <li>
-                  Al Roquefort: roquefort, crema, papas noicette  $****
-                </li>
-                <li>
-                  A la Mostaza: mostaza, crema, papas noicette  $****
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  Bife de Lomo $****
-                </li>
-                <li>
-                  A la Crema: crema y papas a la crema  $****
-                </li>
-                <li>
-                  A la pimienta: salsa de demi glace, pimienta en grano, papas a la crema  $****
-                </li>
-                <li>
-                  Al Champignon: crema, champignon, papas a la crema  $****
-                </li>
-                <li>
-                  A la Napolitana: jamon, queso, tomate en rodajas, papas españolas  $****
-                </li>
-                <li>
-                  Al Scarparo: jamon, aceitunas, crema, champignon, papas rejillas  $****
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  Matambre $****
-                </li>
-                <li>
-                  A la PIzza: muzzarela, tomate, papas españolas  $****
-                </li>
-                <li>
-                  Al Verdeo: verdeo, crema, papas españolas  $****
-                </li>
-                <li>
-                  Al Roquefort: roquefort, crema, papas españolas  $****
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  Bondiola de Cerdo con guarnicion  $****
-                </li>
-                <li>
-                  A la Crema: crema y papas españolas  $****
-                </li>
-                <li>
-                  A la Pimienta: salsa demi glace, pimienta en grano, papas españolas  $****
-                </li>
-                <li>
-                  al Champignon: crema, champignon, papas españolas $****
-                </li>
-                <li>
-                  A la Napolitana: jamon, queso, tomate en rodajas, papas españolas  $****
-                </li>
-                <li>
-                  Al Scarparo: jamon, aceitunas, crema, champignon, papas españolas  $****
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  Matambre de Cerdo con guarnicion  $****
-                </li>
-                <li>
-                  A la PIzza: muzzarela, tomate, papas españolas  $****
-                </li>
-                <li>
-                  Al Roquefort: roquefort, crema, papas españolas  $****
-                </li>
-                <li>
-                  a la Mostaza: mostaza, crema, papas noicette  $****
-                </li>
-              </ul>
-              <h5>Pruebe tamb nuestras carnes con salsas de Roquefort, Mostaza, Ajillo, Champignon o Provenzal</h5>
-              <ul>
-                <li>
-                  Pollo entero con guarnicion(fritas, pure o ensalada)  $****
-                </li>
-                <li>
-                  1/4 pollo deshuesado  $****
-                </li>
-                <li>
-                  1/4 pollo espacal  $****
-                </li>
-                <li>
-                  Al Ajillo: salsa demi glace, papas españolas
-                </li>
-                <li>
-                  Provenzal: ajo, perejil, papas españolas
-                </li>
-                <li>
-                  A la Naranja: naranja, crema, papas noicette
-                </li>
-              </ul>
-              <h4>Ensaladas</h4>
-              <h3>especiales</h3>
-              <ul>
-                <li>
-                  Caesar: pollo, parmsano, lechuga, crotones de pan  $****
-                </li>
-                <li>
-                  Primaveral: apio, radicheta, lechuga, arvejas, chauchas  $****
-                </li>
-                <li>
-                  Capresse: tomate, muzzarela, albahaca</li>
-                <li>Marinera: atun, camarones, zanahoria, salsa golf  $****
 
-                </li>
-                <li>
-                  Walrdof: palmitos, manzana, apio, nuez, crema   $****
-                </li>
-                <li>
-                  Rusa   $****
-                </li>
-                <h5>Combinadas</h5>
-                <li>
-                  Mixta: lechuga, tomate y cebolla  $****
-                </li>
-                <li>
-                  Completa  $****
-                </li>
-                <li>
-                  De papas con mayonesa  $****
-                </li>
-                <li>
-                  De arroz, huevo, jamon y zanahoria  $****
-                </li>
-                <li>
-                  De Remolacha, queso Mar del Plata, mayonesa  $****
-                </li>
-                <li>
-                  De Manzana, apio, jamon, mayonesa y crema  $****
-                </li>
-                <li>
-                  De Radicheta  $****
-                </li>
-                <li>
-                  De Zanahoria, apio y atun  $****
-                </li>
-                <li>
-                  De Zanahoria, manzana  $****
-                </li>
-                <h5>Varios</h5>
-                <li>
-                  Arroz blanco  $****
-                </li>
-                <li>
-                  Arroz a la crema gratinado  $****
-                </li>
-                <li>
-                  Panache de verdura  $****
-                </li>
-                <li>
-                  Papas a la crema  $****
-                </li>
-              </ul>
-              <h4>Sandwiches</h4>
-              <ul>
-                  <li>
-                    De Milanesa  $****
-                  </li>
-                  <li>
-                    De Milanesa, lechuga y tomate  $****
-                  </li>
-                  <li>
-                    De Milanesa, jamon y queso  $****
-                  </li>
-                  <li>
-                    De Milanesa Completo lechuga, tomate, jyq y huevo  $****
-                  </li>
-                  <li>
-                    De Lomito  $****
-                  </li>
-                  <li>
-                    De Lomito, jamon y queso  $****
-                  </li>
-                  <li>
-                    De Lomito Completo lechuga, tomate, jyq y huevo  $****
-                  </li>
-                  <li>
-                    De jamon y queso  $****
-                  </li>
-                  <li>
-                    De jamon, queso, lechuga y tomate
-                  </li>
-              </ul>
-              <h4>Postres</h4>
-              <ul>
-                  <li>
-                    Ensalada de Frutas  $****
-                  </li> 
-                  <li>
-                    budin de Pan  $****
-                  </li>
-                  <li>
-                    Flan $****
-                  </li> 
-                  <li>
-                    Flan con dulce de leche o crema  $****
-                  </li> 
-                  <li>
-                    Budin con dulce de leche o crema  $****
-                  </li> 
-                  <li>
-                    Tiramisu  $****
-                  </li> 
-                  <li
-                  >Bombon o Almedrado  $****
-                </li> 
-                  <li>
-                    Helados $****
-                  </li>
-              </ul>
-              <h4>Bebidas</h4>
-              <ul>
-                <li>
-                  Agua mineral  1/2 L 
-                </li>
-                <li>
-                  Gaseosa  1/2 L
-                </li>
-                <li>
-                  Cervezas
-                </li>
-                <li>
-                  Vinos
-                </li>
-              </ul>
-              <h5>Las Medias POrciones se cobran el 70% del valor.</h5>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="../css/estilos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c685b2b453.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="../assets/img/logotipo.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="header__logotipo">
+      <img class="header__logotipo__logo" src="../assets/img/logotipo1.jpg" alt="te lleva al inicio">
+      <h1 class="logoNombre animate__animated animate__bounceInRight  nimate__slower animate__repeat-1">Newen</h1>
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./casa_de_comidas.html">Casa De Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pedi_por_aca.html">Hace tu Pedido</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="fondo">
+    <div class="section15">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/img/res 1.jpg" class="d-block w-100" alt="res1">
           </div>
-        </main>
-       
-        <footer  class="fondoDelFooter footer ">
-            <div>
-                <a class="subrayado" href="https://www.instagram.com/newen.comidas/?hl=es" target="_blank"> <i class=" icon fa-brands fa-instagram fa-flip "></i>visita nuestro instagram</a> 
-            </div>
-            <div>
-                <a class="subrayado" href="https://www.facebook.com/newen.comidas" target="_blank" > <i class=" icon fa-brands fa-facebook  fa-flip"></i>visita nuestro facebook</a>
-        </div>    
-            <a class="subrayado" href="https://www.newencasadecomidas.com.ar//" target="_blank">Newen Casa De Comidas</a>
-    </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+          <div class="carousel-item">
+            <img src="../assets/img/res 2.jpg" class="d-block w-100" alt="res2">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/res 3.jpg" class="d-block w-100" alt="res3">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/res 4.jpg" class="d-block w-100" alt="res4">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/res 5.jpg" class="d-block w-100" alt="res5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="menu">
+      <h2>Menu</h2>
+    </div>
+    <section>
+      <div class="flex">
+        <div class="main__res__sectionCasa">
+          <h4>Entradas</h4>
+          <ul>
+            <li>
+              Matambre casero $****
+            </li>
+            <li>
+              Vithel Tonné $****
+            </li>
+            <li>
+              Mayonesa de ave $****
+            </li>
+            <li>
+              Mayonesa de atún $****
+            </li>
+            <li>
+              Salpicón de ave $****
+            </li>
+            <li>
+              Milanesa de muzzarella $****
+            </li>
+            <li>
+              Tomate relleno con atun $****
+            </li>
+            <li>
+              Tomate relleno con ave $****
+            </li>
+            <li>
+              Lengua a la vinagrera $****
+            </li>
+          </ul>
+          <h4>Empanadas</h4>
+          <ul>
+            <li>
+              <>Carne - Pollo - Verdura - jyq - queso y Cebolla $****
+            </li>
+          </ul>
+          <h4>Tartas</h4>
+          <ul>
+            <li>
+              Jamon y Queso $****
+            </li>
+            <li>
+              Verdura $****
+            </li>
+          </ul>
+          <h4>Omelettes</h4>
+          <ul>
+            <li>
+              Omelette jamon y queso $****
+            </li>
+            <li>
+              Omelette de champignones $****
+            </li>
+            <li>
+              Omelette de esparragos $****
+            </li>
+            <li>
+              Omelettes de camaranoes $****
+            </li>
+          </ul>
+          <h4>Papas fritas, Tortillas y Demas</h4>
+          <ul>
+            <li>
+              Papas fritas $****
+            </li>
+            <li>
+              Papas fritas provenzal $****
+            </li>
+            <li>
+              Papas pay $****
+            </li>
+            <li>
+              Papas noisette$****
+            </li>
+            <li>
+              Papas Rejillas $****
+            </li>
+            <li>
+              Papas 4 Quesos $****
+            </li>
+            <li>
+              Papas Dunas $****
+            </li>
+            <li>
+              Papas Medanos $****
+            </li>
+            <li>
+              Papas Pampa $****
+            </li>
+            <li>
+              Papas Bosque $****
+            </li>
+            <li>
+              Tortilla de papas $****
+            </li>
+            <li>
+              Torilla de papa y cebolla $****
+            </li>
+            <li>
+              torilla Española $****
+            </li>
+            <li>
+              Torilla de Acelga $****
+            </li>
+            <li>
+              Pure de papa o zapallo $****
+            </li>
+            <li>
+              pastel de papa $****
+            </li>
+            <li>
+              Revuelto gramajo $****
+            </li>
+          </ul>
+          <h4>Pastas Artesalanes</h4>
+          <ul>
+            <li>
+              Tallarines $****
+            </li>
+            <li>
+              Tallarines Negros $****
+            </li>
+            <li>
+              Ñoquis de papa $****
+            </li>
+            <li>
+              Ñoquis de espinaca $****
+            </li>
+            <li>
+              Ñoquis de calabaza $****
+            </li>
+            <li>
+              Ñoquis de remolacha $****
+            </li>
+            <li>
+              Ñoquis Rellenos de jamon y queso $****
+            </li>
+            <li>
+              Ravioles de verdura $****
+            </li>
+            <li>
+              Ravioles de Salmon $****
+            </li>
+            <li>
+              Canelones de verdura o carne $****
+            </li>
+            <li>
+              Sorrentinos de jamon y queso $****
+            </li>
+            <li>
+              Sorretinos de Camarones de rico y camarones $****
+            </li>
+            <li>
+              Lasagna de ricota y verdura $****
+            </li>
+            <li>
+              Agnolotis de ricota, jamon y nueces
+            </li>
+            <li>
+              Porcion de Peceto $****
+            </li>
+          </ul>
+          <h4>Salsas Espaciales</h4>
+          <h5>para nuestros pastas</h5>
+          <ul>
+            <li>
+              4 Quesos $****
+            </li>
+            <p>roquefort, fontina, provolone, parmesano
+            </p>
+            <li>
+              Parisiens $****
+            </li>
+            <p>
+              pollo, crema, jamon, aceitunes
+            </p>
+            <li>
+              Salsa de calamar $****
+            </li>
+            <p>
+              calamar, salsa portuguesa
+            </p>
+            <li>
+              Salsa verde $****
+            </li>
+            <p>
+              espinaca, crema
+            </p>
+            <li>
+              Camarones $****
+            </li>
+            <p>
+              palmitos, camarones, crema, ketchup
+            </p>
+            <li>
+              De Mar $****
+            </li>
+            <p>
+              camaron, calamar, berberecho, ajo, tomate
+            </p>
+            <li>
+              Caruso $****
+            </li>
+            <p>
+              champignon, crema, hongos secos, perejil, jamon
+            </p>
+            <li>
+              Principe de Napole $****
+            </li>
+            <p>
+              jamon, fileto, pollo, huevo
+            </p>>
+            <li>
+              Salmon $****
+            </li>
+            <p>
+              salmon, parmesano, perejil y crema
+            </p>
+            <li>
+              Romana
+            </li>
+            <p>
+              ajo, aceitunas, tomate, champignon y perejil
+            </p>
+            <li>
+              Finocchio $****
+            </li>
+            <p>
+              pollo, cebolla, crema, parmesano
+            </p>
+          </ul>
+          <h4>Milanesas</h4>
+          <ul>
+            <li>
+              MIlanesa de Ternera $****
+              </l>
+            <li>
+              Milanesa Napolitana $****
+            </li>
+            <li>
+              jamon, queso, salsa de tomate
+            </li>
+            <li>
+              Milanesa de Pllo $****
+            </li>
+            <li>
+              Milanesa de Pollo Napolitana $****
+            </li>
+            <li>
+              jamon, queso, salsa de tomate
+            </li>
+            <li>
+              Milanesa Completa $****
+            </li>
+            <li>
+              papas fritas con huevo
+            </li>
+            <li>
+              Milanesa Queca $****
+            </li>
+            <li>
+              jamon, queso, crema y pure
+            </li>
+            <li>
+              Milanesa Suiza $****
+            </li>
+            <li>
+              muzzarela, crema y papas esapañolas
+            </li>
+            <li>
+              Suprema Suiza $****
+            </li>
+            <li>
+              muzzarela, crema y papas españolas
+            </li>
+            <li>
+              Suprema Roquefort $****
+            </li>
+            <li>
+              Suprema a la Mostaza $****
+            </li>
+            <li>
+              Suprema Diabla $****
+            </li>
+            <li>
+              anana, guindas, papas noicette
+            </li>
+          </ul>
+          <h4>Pescados y Mariscos</h4>
+          <ul>
+            <li>
+              Salom rosado a la plancha $****
+            </li>
+            <li>
+              Salmon rosado espacial $****
+            </li>
+            <li>
+              Trucha entera a la plancha $****
+            </li>
+            <li>
+              Trucha entera especial $****
+            </li>
+            <li>
+              Filet de merluza a la Romana $****
+            </li>
+            <li>
+              Filet de merluza espacial $****
+            </li>
+            <li>
+              Fliet de lenguado a la plancha $****
+            </li>
+            <li>
+              FIlet de lenguado espacial $****
+            </li>
+            <li>
+              Gambas empandas $****
+            </li>
+            <li>
+              Gambas al ajillo $****
+            </li>
+            <li>
+              Rabas $****
+            </li>
+            <li>
+              Rabas a la provenzal $****
+            </li>
+            <li>
+              Paella $****
+            </li>
+            <li>
+              Cazuela $****
+            </li>
+            <li>
+              Arrops con Mariscos $****
+            </li>
+            <li>
+              Arroz con Calamares $****
+            </li>
+            <li>
+              Cornalitos $****
+            </li>
+            <li>
+              calamaretes $****
+            </li>
+          </ul>
+          <h5>Nuestros Platos especiales en Pescados vienen con guarnicion de Pure Duquesa con variedad de Salsas
+            Roquefort, Mostaza, Crema o Camarones</h5>
+        </div>
+        <div class="main__res__sectionCasa2">
+          <h4>Carnes</h4>
+          <ul>
+            <li>
+              Lonjitas de Lomo $****
+            </li>
+            <li>
+              Al Verdeo: cebolla de verdero, crema, papas noicette $****
+            </li>
+            <li>
+              Al Roquefort: roquefort, crema, papas noicette $****
+            </li>
+            <li>
+              A la Mostaza: mostaza, crema, papas noicette $****
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Bife de Lomo $****
+            </li>
+            <li>
+              A la Crema: crema y papas a la crema $****
+            </li>
+            <li>
+              A la pimienta: salsa de demi glace, pimienta en grano, papas a la crema $****
+            </li>
+            <li>
+              Al Champignon: crema, champignon, papas a la crema $****
+            </li>
+            <li>
+              A la Napolitana: jamon, queso, tomate en rodajas, papas españolas $****
+            </li>
+            <li>
+              Al Scarparo: jamon, aceitunas, crema, champignon, papas rejillas $****
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Matambre $****
+            </li>
+            <li>
+              A la PIzza: muzzarela, tomate, papas españolas $****
+            </li>
+            <li>
+              Al Verdeo: verdeo, crema, papas españolas $****
+            </li>
+            <li>
+              Al Roquefort: roquefort, crema, papas españolas $****
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Bondiola de Cerdo con guarnicion $****
+            </li>
+            <li>
+              A la Crema: crema y papas españolas $****
+            </li>
+            <li>
+              A la Pimienta: salsa demi glace, pimienta en grano, papas españolas $****
+            </li>
+            <li>
+              al Champignon: crema, champignon, papas españolas $****
+            </li>
+            <li>
+              A la Napolitana: jamon, queso, tomate en rodajas, papas españolas $****
+            </li>
+            <li>
+              Al Scarparo: jamon, aceitunas, crema, champignon, papas españolas $****
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Matambre de Cerdo con guarnicion $****
+            </li>
+            <li>
+              A la PIzza: muzzarela, tomate, papas españolas $****
+            </li>
+            <li>
+              Al Roquefort: roquefort, crema, papas españolas $****
+            </li>
+            <li>
+              a la Mostaza: mostaza, crema, papas noicette $****
+            </li>
+          </ul>
+          <h5>Pruebe tamb nuestras carnes con salsas de Roquefort, Mostaza, Ajillo, Champignon o Provenzal</h5>
+          <ul>
+            <li>
+              Pollo entero con guarnicion(fritas, pure o ensalada) $****
+            </li>
+            <li>
+              1/4 pollo deshuesado $****
+            </li>
+            <li>
+              1/4 pollo espacal $****
+            </li>
+            <li>
+              Al Ajillo: salsa demi glace, papas españolas
+            </li>
+            <li>
+              Provenzal: ajo, perejil, papas españolas
+            </li>
+            <li>
+              A la Naranja: naranja, crema, papas noicette
+            </li>
+          </ul>
+          <h4>Ensaladas</h4>
+          <h3>especiales</h3>
+          <ul>
+            <li>
+              Caesar: pollo, parmsano, lechuga, crotones de pan $****
+            </li>
+            <li>
+              Primaveral: apio, radicheta, lechuga, arvejas, chauchas $****
+            </li>
+            <li>
+              Capresse: tomate, muzzarela, albahaca</li>
+            <li>Marinera: atun, camarones, zanahoria, salsa golf $****
+
+            </li>
+            <li>
+              Walrdof: palmitos, manzana, apio, nuez, crema $****
+            </li>
+            <li>
+              Rusa $****
+            </li>
+            <h5>Combinadas</h5>
+            <li>
+              Mixta: lechuga, tomate y cebolla $****
+            </li>
+            <li>
+              Completa $****
+            </li>
+            <li>
+              De papas con mayonesa $****
+            </li>
+            <li>
+              De arroz, huevo, jamon y zanahoria $****
+            </li>
+            <li>
+              De Remolacha, queso Mar del Plata, mayonesa $****
+            </li>
+            <li>
+              De Manzana, apio, jamon, mayonesa y crema $****
+            </li>
+            <li>
+              De Radicheta $****
+            </li>
+            <li>
+              De Zanahoria, apio y atun $****
+            </li>
+            <li>
+              De Zanahoria, manzana $****
+            </li>
+            <h5>Varios</h5>
+            <li>
+              Arroz blanco $****
+            </li>
+            <li>
+              Arroz a la crema gratinado $****
+            </li>
+            <li>
+              Panache de verdura $****
+            </li>
+            <li>
+              Papas a la crema $****
+            </li>
+          </ul>
+          <h4>Sandwiches</h4>
+          <ul>
+            <li>
+              De Milanesa $****
+            </li>
+            <li>
+              De Milanesa, lechuga y tomate $****
+            </li>
+            <li>
+              De Milanesa, jamon y queso $****
+            </li>
+            <li>
+              De Milanesa Completo lechuga, tomate, jyq y huevo $****
+            </li>
+            <li>
+              De Lomito $****
+            </li>
+            <li>
+              De Lomito, jamon y queso $****
+            </li>
+            <li>
+              De Lomito Completo lechuga, tomate, jyq y huevo $****
+            </li>
+            <li>
+              De jamon y queso $****
+            </li>
+            <li>
+              De jamon, queso, lechuga y tomate
+            </li>
+          </ul>
+          <h4>Postres</h4>
+          <ul>
+            <li>
+              Ensalada de Frutas $****
+            </li>
+            <li>
+              budin de Pan $****
+            </li>
+            <li>
+              Flan $****
+            </li>
+            <li>
+              Flan con dulce de leche o crema $****
+            </li>
+            <li>
+              Budin con dulce de leche o crema $****
+            </li>
+            <li>
+              Tiramisu $****
+            </li>
+            <li>Bombon o Almedrado $****
+            </li>
+            <li>
+              Helados $****
+            </li>
+          </ul>
+          <h4>Bebidas</h4>
+          <ul>
+            <li>
+              Agua mineral 1/2 L
+            </li>
+            <li>
+              Gaseosa 1/2 L
+            </li>
+            <li>
+              Cervezas
+            </li>
+            <li>
+              Vinos
+            </li>
+          </ul>
+          <h5>Las Medias POrciones se cobran el 70% del valor.</h5>
+        </div>
+      </div>
+    </section>  
+  </main>
+
+  <footer class="fondoDelFooter footer ">
+    <div>
+      <a class="subrayado" href="https://www.instagram.com/newen.comidas/?hl=es" target="_blank"> <i
+          class=" icon fa-brands fa-instagram fa-flip "></i>visita nuestro instagram</a>
+    </div>
+    <div>
+      <a class="subrayado" href="https://www.facebook.com/newen.comidas" target="_blank"> <i
+          class=" icon fa-brands fa-facebook  fa-flip"></i>visita nuestro facebook</a>
+    </div>
+    <a class="subrayado" href="https://www.newencasadecomidas.com.ar//" target="_blank">Newen Casa De Comidas</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
