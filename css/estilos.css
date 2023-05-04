@@ -1,0 +1,250 @@
+.header {
+  display: flex;
+  height: 100px;
+  background-color: rgb(221, 221, 196);
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.header .header__logotipo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.header .header__logotipo .header__logotipo__logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.fondoDelFooter {
+  background-color: rgb(221, 221, 196);
+}
+.fondoDelFooter .subrayado {
+  text-decoration: none;
+  color: black;
+}
+.fondoDelFooter .subrayado .icon {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+.fondoDelFooter .subrayado .fa-flip {
+  -webkit-animation-name: fa-flip;
+  animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+  animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+  animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+  animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.row .columnas {
+  flex: 25%;
+  padding: 5px;
+}
+.row .columnas img {
+  margin-top: 5px;
+}
+
+.fondo {
+  background-color: rgb(206, 206, 185);
+}
+.fondo .section4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transform: scale(0.75);
+  border-radius: 20px;
+  background-color: beige;
+  padding: 50px;
+}
+.fondo .menu {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.fondo .flex {
+  display: flex;
+}
+.fondo .flex .main__res__sectionCasa {
+  background-color: beige;
+  justify-content: center;
+  padding: 80px;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.fondo .flex .main__res__sectionCasa2 {
+  background-color: beige;
+  justify-content: center;
+  padding: 80px;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.fondo {
+  background-color: rgb(206, 206, 185);
+}
+.fondo .section2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transform: scale(0.75);
+  border-radius: 20px;
+  background-color: beige;
+  padding: 50px;
+}
+.fondo .menu {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.fondo .flex {
+  display: flex;
+}
+.fondo .flex .main__res__sectionCasa {
+  background-color: beige;
+  justify-content: center;
+  padding: 80px;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.fondo .flex .main__res__sectionCasa2 {
+  background-color: beige;
+  justify-content: center;
+  padding: 80px;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.fondo .newen .section {
+  background-color: rgb(221, 221, 196);
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  width: 70%;
+  height: 50vh;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fondo .newen .section .parrafo .h2 {
+  margin: 0;
+  color: burlywood;
+}
+.fondo .newen .section .parrafo .parra {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.fondo .newen .section .imag {
+  width: 300px;
+  border-radius: 20px;
+}
+.fondo .section3 {
+  background-color: rgb(221, 221, 196);
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.fondo .mapas {
+  margin-top: 50px;
+}
+.fondo .section9 {
+  background-color: rgb(221, 221, 196);
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  width: 70%;
+  height: 50vh;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.colorFondoN {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(206, 206, 185);
+  width: 100%;
+  height: 77vh;
+}
+.colorFondoN .section6 {
+  background-color: rgb(221, 221, 196);
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=estilos.css.map */
