@@ -205,7 +205,7 @@
 }
 .fondo .section9 {
   background-color: rgb(221, 221, 196);
-  display: flex;
+  display: mao-get();
   justify-content: space-between;
   padding: 80px;
   width: 70%;

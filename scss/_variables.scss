@@ -9,3 +9,13 @@ $margin:auto;
 $background-color:rgb(214, 214, 194);
 $background-color-main:rgb(206, 206, 185);
 $beige:beige;
+$desktop:768px;
+
+
+$map-flex:(
+    flex: flex,
+    column: column,
+    row: row,
+    space-between: space-between,
+    center: center
+);

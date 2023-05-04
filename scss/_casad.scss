@@ -1,16 +1,17 @@
-
 .fondo {
-    background-color:$background-color-main;
+    background-color: $background-color-main;
+
     .section4 {
         margin-top: 50px;
         margin-bottom: 50px;
         transform: scale(0.75);
         border-radius: 20px;
-        background-color:$beige ;
+        background-color: $beige ;
         padding: 50px;
     }
+
     .menu {
-        background-color:$beige;
+        background-color: $beige;
         display: $flex;
         justify-content: center;
         padding: $padding_80;
@@ -22,24 +23,27 @@
         margin-bottom: 50px;
         align-items: center;
     }
+
     .flex {
         display: $flex;
+
         .main__res__sectionCasa {
             background-color: $beige;
             justify-content: center;
-            padding:$padding_80;
+            padding: $padding_80;
             width: 30%;
-            margin:$margin;
+            margin: $margin;
             border-radius: 20px;
             box-shadow: $bordes-negros;
             margin-top: 50px;
             margin-bottom: 50px;
             align-items: center;
         }
+
         .main__res__sectionCasa2 {
-            background-color:$beige;
+            background-color: $beige;
             justify-content: center;
-            padding:$padding_80;
+            padding: $padding_80;
             width: 30%;
             margin: $margin;
             border-radius: 20px;
@@ -50,3 +54,4 @@
         }
     }
 }
+

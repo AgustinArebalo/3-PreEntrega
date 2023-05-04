@@ -54,7 +54,7 @@
 
         .section9 {
             background-color: $color-header-footer;
-            display: $flex;
+            display: mao-get();
             justify-content: space-between;
             padding: $padding_80;
             width: $width_70;
