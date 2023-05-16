@@ -541,4 +541,11 @@ body {
   flex-direction: column;
 }
 
+main {
+  background-color: rgb(214, 214, 194);
+}
+main p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=estilos.css.map */
