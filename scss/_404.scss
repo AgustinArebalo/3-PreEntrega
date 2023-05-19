@@ -1,5 +1,8 @@
 main{
     background-color:$color-main ;
+    height: 70vh;
+    justify-content: center;
+    display: $flex;
     p{
         text-align: center;
     }

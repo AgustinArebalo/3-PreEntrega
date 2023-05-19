@@ -1,14 +1,83 @@
 .fondo {
     $color-main: rgb(214, 214, 194);
 
+    .newen {
+        .section {
+            background-color: $color-header-footer;
+            display: $flex;
+            justify-content: map-get($map-flex, space-between);
+            padding: $padding_80;
+            width: $width_70;
+            height: 50vh;
+            margin: $margin;
+            border-radius: 20px;
+            box-shadow: $bordes-negros ;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            .parrafo {
+                .h2 {
+                    margin: 0;
+                    color: rgb(0, 0, 0);
+                }
+
+                .parra {
+                    margin-right: 15px;
+                    font-size: 20px;
+                }
+            }
+
+            .imag {
+                width: 300px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .section3 {
+        background-color: $color-header-footer;
+        display: $flex;
+        justify-content: map-get($map-flex, space-between);
+        padding: $padding_80;
+        width: $width_70;
+        margin: $margin;
+        border-radius: 20px;
+        box-shadow: $bordes-negros;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .mapas {
+        margin-top: 50px;
+    }
+
+    .section9 {
+        background-color: $color-header-footer;
+        display: map-get($map-flex, flex);
+        justify-content: map-get($map-flex, space-between);
+        padding: $padding_80;
+        width: $width_70;
+        height: 50vh;
+        margin: $margin;
+        border-radius: 20px;
+        box-shadow: $bordes-negros;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@include mobile-mediaqueries {
+    .fondo {
+        $color-main: rgb(214, 214, 194);
+
         .newen {
             .section {
-                background-color: $color-header-footer;
                 display: $flex;
-                justify-content: map-get($map-flex,space-between);
+                flex-direction: map-get($map-flex, column);
                 padding: $padding_80;
-                width: $width_70;
-                height: 50vh;
+                width: 95%;
+                height: 80rem;
                 margin: $margin;
                 border-radius: 20px;
                 box-shadow: $bordes-negros ;
@@ -19,6 +88,8 @@
                     .h2 {
                         margin: 0;
                         color: rgb(0, 0, 0);
+                        font-size: 30px;
+                        width: auto;
                     }
 
                     .parra {
@@ -28,24 +99,25 @@
                 }
 
                 .imag {
-                    width: 300px;
+                    width: auto;
                     border-radius: 20px;
                 }
             }
         }
 
         .section3 {
-            background-color: $color-header-footer;
             display: $flex;
-            justify-content: map-get($map-flex,space-between);
+            justify-content: map-get($map-flex, space-between);
             padding: $padding_80;
-            width: $width_70;
+            width: 95%;
+            height: auto;
             margin: $margin;
             border-radius: 20px;
             box-shadow: $bordes-negros;
             margin-top: 50px;
             margin-bottom: 50px;
             font-size: 20px;
+
         }
 
         .mapas {
@@ -53,96 +125,27 @@
         }
 
         .section9 {
-            background-color: $color-header-footer;
             display: map-get($map-flex, flex);
-            justify-content: map-get($map-flex,space-between);
+            flex-direction: map-get($map-flex, column);
             padding: $padding_80;
-            width: $width_70;
-            height: 50vh;
+            width: 95%;
+            ;
+            height: auto;
             margin: $margin;
             border-radius: 20px;
             box-shadow: $bordes-negros;
             margin-top: 50px;
             margin-bottom: 50px;
-        }
-}
 
-@include mobile-mediaqueries{
-    .fondo {
-        $color-main: rgb(214, 214, 194);
-    
-            .newen {
-                .section {
-                    display: $flex;
-                    flex-direction: map-get($map-flex,column);
-                    padding: $padding_80;
-                    width: 95%;
-                    height: 80rem;
-                    margin: $margin;
-                    border-radius: 20px;
-                    box-shadow: $bordes-negros ;
-                    margin-top: 50px;
-                    margin-bottom: 50px;
-    
-                    .parrafo {
-                        .h2 {
-                            margin: 0;
-                            color: rgb(0, 0, 0);
-                            font-size: 30px;
-                            width: auto;
-                        }
-    
-                        .parra {
-                            margin-right: 15px;
-                            font-size: 20px;
-                        }
-                    }
-    
-                    .imag {
-                        width: auto;
-                        border-radius: 20px;
-                    }
-                }
-            }
-    
-            .section3 {
-                display: $flex;
-                justify-content: map-get($map-flex,space-between);
-                padding: $padding_80;
-                width: 95%;
+            .mapa1 {
+                width: auto;
                 height: auto;
-                margin: $margin;
-                border-radius: 20px;
-                box-shadow: $bordes-negros;
-                margin-top: 50px;
-                margin-bottom: 50px;
-                font-size: 20px;
-                
             }
-    
-            .mapas {
-                margin-top: 50px;
-            }
-    
-            .section9 {
-                display: map-get($map-flex, flex);
-                flex-direction: map-get($map-flex,column);
-                padding: $padding_80;
-                width: 95%;;
+
+            .mapa2 {
+                width: auto;
                 height: auto;
-                margin: $margin;
-                border-radius: 20px;
-                box-shadow: $bordes-negros;
-                margin-top: 50px;
-                margin-bottom: 50px;
-                .mapa1{
-                    width: auto;
-                    height: auto;
-                }
-                .mapa2{
-                    width: auto;
-                    height: auto;
-                }
             }
+        }
     }
 }
