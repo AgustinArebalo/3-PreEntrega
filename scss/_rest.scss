@@ -23,89 +23,93 @@
         align-items: center;
     }
 
-    .flex {
-        display: flex;
 
-        .main__res__sectionCasa {
-            background-color: $beige;
-            justify-content: center;
-            padding: $padding_80;
-            width: 30%;
-            margin: $margin;
-            border-radius: 20px;
-            box-shadow: $bordes-negros;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            align-items: center;
-        }
 
-        .main__res__sectionCasa2 {
-            background-color: $beige;
-            justify-content: center;
-            padding: $padding_80;
-            width: 30%;
-            margin: $margin;
-            border-radius: 20px;
-            box-shadow: $bordes-negros;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            align-items: center;
+    .section21 {
+        background-color: $beige;
+        display: $flex;
+        justify-content: map-get($map-flex, space-between);
+        padding: $padding_80;
+        width: $width_70;
+        margin: $margin;
+        border-radius: 20px;
+        box-shadow: $bordes-negros;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .section23 {
+        background-color: $beige;
+        justify-content: center;
+        padding: $padding_80;
+        width: 50%;
+        margin: $margin;
+        border-radius: 20px;
+        box-shadow: $bordes-negros;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+
+        .col {
+            .card {
+                background-color: $beige;
+                border-radius: 20px;
+                box-shadow: $bordes-negros;
+
+                .cardImg2 {
+                    border-radius: 20px;
+                }
+            }
         }
     }
 }
+
 
 @include mobile-mediaqueries {
     .fondo {
         background-color: $background-color-main;
 
-        .section15 {
-            margin-top: 50px;
-            margin-bottom: 50px;
-            transform: scale(0.95);
-            border-radius: 20px;
-            background-color: $beige ;
-            padding: 50px;
+        .menu {
+            display: $flex;
+            justify-content: center;
+            padding: $padding_80;
+            width: 95%;
+            margin: $margin;
+        }
 
-            .menu {
-                background-color: $beige;
-                display: flex;
-                justify-content: center;
-                padding: $padding_80;
-                width: 95%;
-                margin: $margin;
-                border-radius: 20px;
-                box-shadow: $bordes-negros;
-                margin-top: 50px;
-                margin-bottom: 40px;
-                align-items: center;
-            }
+        .section21 {
+            width: 95%;
+            padding: 40px;
+        }
 
-            .flex {
-                display: flex;
-                flex-direction: column;
-                .main__res__sectionCasa {
+        .flex {
+            display: $flex;
+            flex-direction: column;
+        }
+
+        .section23 {
+            display: $flex;
+            flex-direction: column;
+            width: 95%;
+            padding: 17px;
+
+            .col {
+                .card {
                     background-color: $beige;
-                    padding: $padding_80;
-                    width: 95%;
-                    margin: $margin;
                     border-radius: 20px;
                     box-shadow: $bordes-negros;
-                    margin-top: 50px;
+                    width: auto;
+                    height: auto;
                     margin-bottom: 50px;
-                    align-items: center;
+                    margin-top: 30px;
+
+                    .cardmg2 {
+                        border-radius: 20px;
+                    }
                 }
 
-                .main__res__sectionCasa2 {
-                    background-color: $beige;
-                    padding: $padding_80;
-                    width: 95%;
-                    margin: $margin;
-                    border-radius: 20px;
-                    box-shadow: $bordes-negros;
-                    margin-top: 50px;
-                    margin-bottom: 50px;
-                    align-items: center;
-                }
+
             }
         }
     }

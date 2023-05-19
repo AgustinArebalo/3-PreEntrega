@@ -1,7 +1,7 @@
 .fondo {
     background-color: $background-color-main;
 
-    .section15{
+    .section15 {
         margin-bottom: 50px;
         transform: scale(0.75);
         border-radius: 20px;
@@ -46,10 +46,11 @@
         }
     }
 }
-@include mobile-mediaqueries{
+
+@include mobile-mediaqueries {
     .fondo {
         background-color: $background-color-main;
-    
+
         .section4 {
             margin-top: 50px;
             margin-bottom: 50px;
@@ -58,7 +59,7 @@
             background-color: $beige ;
             padding: 30px;
         }
-    
+
         .menu {
             background-color: $beige;
             display: $flex;
@@ -73,10 +74,11 @@
             margin-bottom: 50px;
             align-items: center;
         }
-    
+
         .flex {
             display: $flex;
             flex-direction: column;
+
             .main__res__sectionCasa {
                 background-color: $beige;
                 padding: $padding_80;
@@ -88,7 +90,7 @@
                 margin-bottom: 25px;
                 align-items: center;
             }
-    
+
             .main__res__sectionCasa2 {
                 background-color: $beige;
                 padding: $padding_80;

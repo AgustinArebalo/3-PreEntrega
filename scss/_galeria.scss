@@ -1,10 +1,12 @@
 .fondo {
     $color-main: rgb(214, 214, 194);
+
     .row {
         display: $flex;
         padding: 5px;
         flex-wrap: wrap;
-        
+        width: 99.5vw;
+
 
         .columnas {
             flex: 25%;
@@ -19,15 +21,16 @@
     }
 }
 
-    @include mobile-mediaqueries {
-        .row {
-            display: flex;
-            flex-direction: column;
-            .columnas {
-                flex: 100%;
-                padding: 5px;
-                margin-left: 5px;
-                margin-right: 5px;
-            }
+@include mobile-mediaqueries {
+    .row {
+        display: flex;
+        flex-direction: column;
+
+        .columnas {
+            flex: 100%;
+            padding: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
         }
     }
+}

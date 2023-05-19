@@ -1,22 +1,35 @@
+
 .header {
-    display: flex;
-    height: 170px;
     background-color: rgb(221, 221, 196);
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
 
-    .header__logotipo {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: black;
+    &__nav__a__logo {
+        width: 150px;
+        border-radius: 50%;
+    }
 
-        .header__logotipo__logo {
-            width: 150px;
-            height: 150px;
-            margin-right: 10px;
+    &__nav__ul {
+        font-size: 1.5rem;
+        padding: 3rem;
+
+        & li {
+            margin: 0.5rem;
+            box-shadow: $bordes-negros;
+            border-radius: 20%;
+            & a{
+                color: black;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        @include mobile-mediaqueries {
+            margin-left: 2rem;
+        }
+
+        &-icon {
+            @include mobile-mediaqueries {
+                color: rgb(221, 221, 196);
+            }
         }
     }
 }

@@ -10,6 +10,7 @@ $background-color: rgb(214, 214, 194);
 $background-color-main: rgb(206, 206, 185);
 $beige: beige;
 $desktop: 768px;
+$bordes: 20px;
 
 
 $map-flex: (
@@ -19,8 +20,29 @@ $map-flex: (
     space-between: space-between,
     center: center
 );
+.extends{
+    background-color: $color-header-footer;
+    display: $flex;
+    padding: $padding_80;
+    width: $width_70;
+    margin: $margin;
+    border-radius: $bordes;
+    box-shadow: $bordes-negros ;
+    justify-content: map-get($map-flex, space-between);
+}
 
-.borde { /* @extend no me deja*/
+.extends2{
+    display: $flex;
+    padding: $padding_80;
+    width: $width_70;
+    margin: $margin;
+    border-radius: $bordes;
+    box-shadow: $bordes-negros ;
+    justify-content: map-get($map-flex, space-between);
+}
+
+.borde {
+    /* @extend no me deja*/
     width: 95%;
     height: auto;
     border-radius: 20px;
@@ -35,5 +57,3 @@ $map-flex: (
         @content;
     }
 }
-
-@include mobile-mediaqueries {}

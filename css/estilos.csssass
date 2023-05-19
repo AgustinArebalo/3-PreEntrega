@@ -1,26 +1,4 @@
-.extends, .fondo .newen .section {
-  background-color: rgb(221, 221, 196);
-  display: flex;
-  padding: 80px;
-  width: 70%;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  justify-content: space-between;
-}
-
-.extends2 {
-  display: flex;
-  padding: 80px;
-  width: 70%;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  justify-content: space-between;
-}
-
-.borde {
-  /* @extend no me deja*/
+.borde { /* @extend no me deja*/
   width: 95%;
   height: auto;
   border-radius: 20px;
@@ -30,33 +8,24 @@
 }
 
 .header {
+  display: flex;
+  height: 170px;
   background-color: rgb(221, 221, 196);
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
 }
-.header__nav__a__logo {
-  width: 150px;
-  border-radius: 50%;
-}
-.header__nav__ul {
-  font-size: 1.5rem;
-  padding: 3rem;
-}
-.header__nav__ul li {
-  margin: 0.5rem;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  border-radius: 20%;
-}
-.header__nav__ul li a {
+.header .header__logotipo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 0px) and (max-width: 768px) {
-  .header .navbar-toggler {
-    margin-left: 2rem;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 768px) {
-  .header .navbar-toggler-icon {
-    color: rgb(221, 221, 196);
-  }
+.header .header__logotipo .header__logotipo__logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
 
 .fondoDelFooter {
@@ -144,26 +113,8 @@
   margin-bottom: 50px;
   font-size: 20px;
 }
-.fondo .section22 {
-  background-color: beige;
-  display: flex;
-  justify-content: space-between;
-  padding: 80px;
-  width: 70%;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 20px;
-}
-.fondo .section22 .col .card {
-  background-color: beige;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
-.fondo .section22 .col .card .cardImg {
-  border-radius: 20px;
+.fondo .section20 .subrayado2 {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -184,24 +135,6 @@
   .fondo .flex {
     display: flex;
     flex-direction: column;
-  }
-  .fondo .section22 {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    padding: 17px;
-  }
-  .fondo .section22 .col .card {
-    background-color: beige;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    width: auto;
-    height: auto;
-    margin-bottom: 50px;
-    margin-top: 30px;
-  }
-  .fondo .section22 .col .card .cardImg {
-    border-radius: 20px;
   }
 }
 .fondo {
@@ -227,24 +160,14 @@
   margin-bottom: 50px;
   align-items: center;
 }
-.fondo .section21 {
-  background-color: beige;
+.fondo .flex {
   display: flex;
-  justify-content: space-between;
-  padding: 80px;
-  width: 70%;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 20px;
 }
-.fondo .section23 {
+.fondo .flex .main__res__sectionCasa {
   background-color: beige;
   justify-content: center;
   padding: 80px;
-  width: 50%;
+  width: 30%;
   margin: auto;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -252,13 +175,17 @@
   margin-bottom: 50px;
   align-items: center;
 }
-.fondo .section23 .col .card {
+.fondo .flex .main__res__sectionCasa2 {
   background-color: beige;
+  justify-content: center;
+  padding: 80px;
+  width: 30%;
+  margin: auto;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
-.fondo .section23 .col .card .cardImg2 {
-  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -266,41 +193,55 @@
     background-color: rgb(206, 206, 185);
   }
   .fondo .menu {
+    background-color: beige;
     display: flex;
     justify-content: center;
     padding: 80px;
     width: 95%;
     margin: auto;
-  }
-  .fondo .section21 {
-    width: 95%;
-    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    align-items: center;
   }
   .fondo .flex {
     display: flex;
     flex-direction: column;
   }
-  .fondo .section23 {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    padding: 17px;
-  }
-  .fondo .section23 .col .card {
+  .fondo .flex .main__res__sectionCasa {
     background-color: beige;
+    padding: 80px;
+    width: 95%;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    width: auto;
-    height: auto;
+    margin-top: 50px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    align-items: center;
   }
-  .fondo .section23 .col .card .cardmg2 {
+  .fondo .flex .main__res__sectionCasa2 {
+    background-color: beige;
+    padding: 80px;
+    width: 95%;
+    margin: auto;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
   }
 }
 .fondo .newen .section {
+  background-color: rgb(221, 221, 196);
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  width: 70%;
   height: 50vh;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -310,7 +251,7 @@
 }
 .fondo .newen .section .parrafo .parra {
   margin-right: 15px;
-  font-size: 23px;
+  font-size: 25px;
 }
 .fondo .newen .section .imag {
   width: 300px;
@@ -346,11 +287,11 @@
   margin-bottom: 50px;
 }
 .fondo .section9 .mapa1 {
-  width: 600px;
+  width: 500px;
   height: 300px;
 }
 .fondo .section9 .mapa2 {
-  width: 600px;
+  width: 500px;
   height: 300px;
 }
 
@@ -358,16 +299,16 @@
   .fondo .newen .section {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 80px;
     width: 95%;
-    height: auto;
+    height: 80rem;
     margin: auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .fondo .newen .section .parrafo .h1 {
+  .fondo .newen .section .parrafo .h2 {
     margin: 0;
     color: rgb(0, 0, 0);
     font-size: 4px;
@@ -379,13 +320,12 @@
   }
   .fondo .newen .section .imag {
     width: auto;
-    height: auto;
     border-radius: 20px;
   }
   .fondo .section3 {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 80px;
     width: 95%;
     height: auto;
     margin: auto;
@@ -401,7 +341,7 @@
   .fondo .section9 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 80px;
     width: 95%;
     height: auto;
     margin: auto;
@@ -411,12 +351,12 @@
     margin-bottom: 50px;
   }
   .fondo .section9 .mapa1 {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: auto;
   }
   .fondo .section9 .mapa2 {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
   }
 }
 .colorFondoN {
@@ -437,7 +377,6 @@
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-top: 50px;
   margin-bottom: 50px;
-  height: auto;
 }
 .colorFondoN .section6 .agrandar {
   resize: vertical;
@@ -449,15 +388,15 @@
     flex-direction: column;
     background-color: rgb(206, 206, 185);
     width: 100%;
-    height: 65vh;
+    height: 77vh;
   }
   .colorFondoN .section6 {
     background-color: rgb(221, 221, 196);
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    width: auto;
-    height: auto;
+    padding: 80px;
+    width: 100%;
+    height: 100vh;
     margin: auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -581,4 +520,4 @@ body {
   text-align: center;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.csssass.map */

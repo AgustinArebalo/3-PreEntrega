@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NEWEN</title>
+  <meta name="descripcion"
+    content="¡Descubre el sabor auténtico de nuestra casa de comidas! Deliciosos platos caseros con ingredientes frescos y sabores únicos. Visítanos y déjate cautivar por nuestra cocina.">
+  <meta name="keywords content=" HTML, CASA DE COMIDA, RESTAURANT, UBICACION">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -17,32 +21,33 @@
 
 <body>
   <header class="header">
-    <a href="#" class="header__logotipo">
-      <img class="header__logotipo__logo" src="./assets/img/logotipo1.jpg" alt="te_lleva_al_inicio">
-      <h1 class="logoNombre animate__animated animate__bounceInRight  nimate__slower animate__repeat-1">Newen</h1>
-    </a>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Inicio</a>
-        <button class=" boton navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"><img src="./assets/img/logotipo1.jpg" alt="Logo" alt="Logo PITT"
+            class="header__nav__a__logo">
+        </a>
+        <button class="navbar-toggler bg-light text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav w-100 justify-content-end header__nav__ul">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/casa_de_comidas.html">Casa De Comidas</a>
+              <a class="nav-link active text-white " aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/restaurant.html">Restaurant</a>
+              <a class="nav-link text-white " href="./pages/casa_de_comidas.html">Casa De Comidas(menu)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+              <a class="nav-link text-white " href="./pages/restaurant.html">Restaurant(menu)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/pedi_por_aca.html">Hace tu Pedido</a>
+              <a class="nav-link text-white " href="./pages/galeria.html">Galeria</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-white  " href="./pages/pedi_por_aca.html">Pedi Online</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -52,25 +57,26 @@
       <div class="newen">
         <div class="section">
           <div class="parrafo">
-            <h2 class="h2 animate__animated animate__slideInRight   animate__slower animate__repeat-1">NEWEN</h2>
-            <p class="parra">Newen º Casa de comidas º y º Restaurant º, se ha destacado por ofrecer una amplia variedad
+            <h1 class="h2 animate__animated animate__slideInRight   animate__slower animate__repeat-1">NEWEN</h1>
+            <p class="parra">Newen º <u>Casa de comidas</u> º y º <u>Restaurant</u> º, se ha destacado por ofrecer una
+              amplia variedad
               de opciones culinarias para satisfacer todos los gustos. Su menú incluye deliciosos pescados y mariscos,
               preparados con ingredientes frescos y de alta calidad. Además, Newen Casa de Comidas ofrece una gran
               variedad de minutas, pastas caseras, carnes, pollos y postres, todo preparado con pasión y dedicación para
               ofrecer una experiencia gastronómica inolvidable a sus clientes. Con una trayectoria de más de una década,
-              Newen Casa de Comidas es un referente en el mundo de la cocina y un lugar obligado para aquellos que
+              Newen Casa de Comidas es un referente en la cocina y un lugar obligado para aquellos que
               buscan
               disfrutar de una comida exquisita en un ambiente acogedor y cálido</p>
           </div>
-          <img class="imag" src="./assets/img/cometarios.jpg" alt="cometarios">
+          <img class="imag" src="./assets/img/jueves d.jpg" alt="abierto">
         </div>
       </div>
     </section>
     <div class="row section3">
       <div class="col">
-        <h3>Casa de comidas</h3>
+        <h2> <u>Casa de comidas</u> </h2>
         <ul class="section__lista">
-          <li>MAR DE LAS PAMPAS
+          <li> MAR DE LAS PAMPAS
             Avenida Del Plata, Esq Uritorco
           </li>
           <li>(02255) 47-7047 / 47-0900 / 47-8880 </li>
@@ -79,7 +85,7 @@
         </ul>
       </div>
       <div class="col">
-        <h3>Restaurant</h3>
+        <h2> <u>Restaurant</u> </h2>
         <ul class="section__lista">
           <li>Restaurant
             Avenida Costnera, paseo 128/129
@@ -91,17 +97,17 @@
     </div>
     <div class="mapas section9 ">
       <div class="espacioMapa">
-        <h3 class="main__section__h3">Newen Casa De Comidas</h3>
-        <iframe class="mapa1"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.0146449655394!2d-57.03323138469539!3d-3731848077984521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x959b5dc0e2dea667%3A0x128af3960458a77c!2sNewen%20Casa%20de%20Comidas!5e0!3m2!1ses-419!2sar!4v1681756441448!5m2!1ses-419!2sar"
-          width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        <h3 class="main__section__h3"> <u>Newen Casa De Comidas</u> </h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.0146449655394!2d-57.03323138469539!3d-37.31848077984521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b5dc0e2dea667%3A0x128af3960458a77c!2sNewen%20Casa%20de%20Comidas!5e0!3m2!1ses-419!2sar!4v1685729400298!5m2!1ses-419!2sar"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div>
-        <h3>Newen Restaurant</h3>
-        <iframe class="mapa2"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6523754531745!2d-56.9832278!3d-37.279669600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b611a1f329841%3A0x688d7f2fd7687332!2sNEWEN%20RESTAURANT!5e0!3m2!1ses-419!2sar!4v1681852602643!5m2!1ses-419!2sar"
-          width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        <h3> <u>Newen Restaurant</u> </h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.667170396832!2d-56.985098434696454!3d-37.27931882985273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b61eece6fba8f%3A0x3941f87b441f883a!2sRestaurant%20Newen!5e0!3m2!1ses-419!2sar!4v1685729491918!5m2!1ses-419!2sar"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
