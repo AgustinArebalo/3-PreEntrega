@@ -58,6 +58,7 @@
   display: flex;
   padding: 5px;
   flex-wrap: wrap;
+  width: 99.5vw;
 }
 .fondo .row .columnas {
   flex: 25%;
