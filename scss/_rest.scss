@@ -2,8 +2,7 @@
     background-color: $background-color-main;
 
     .section15 {
-        margin-top: 30px;
-        margin-bottom: 50px;
+        margin-top: 50px;
         transform: scale(0.75);
         border-radius: 20px;
         background-color: $beige;
@@ -66,25 +65,24 @@
             border-radius: 20px;
             background-color: $beige ;
             padding: 50px;
-            width: 95%;
 
             .menu {
                 background-color: $beige;
                 display: flex;
                 justify-content: center;
-                padding: 80px;
+                padding: $padding_80;
                 width: 95%;
                 margin: $margin;
                 border-radius: 20px;
                 box-shadow: $bordes-negros;
                 margin-top: 50px;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
                 align-items: center;
             }
 
             .flex {
                 display: flex;
-
+                flex-direction: column;
                 .main__res__sectionCasa {
                     background-color: $beige;
                     padding: $padding_80;
