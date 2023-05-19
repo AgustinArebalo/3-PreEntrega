@@ -1,23 +1,29 @@
-.row {
-    display: $flex;
-    padding: 5px;
-    .columnas {
-        flex: 25%;
+.fondo {
+    $color-main: rgb(214, 214, 194);
+    .row {
+        display: $flex;
         padding: 5px;
-        
-        img {
-            margin-top: 5px;
-            width: 100%;
+
+        .columnas {
+            flex: 25%;
+            padding: 5px;
+
+            img {
+                margin-top: 5px;
+                width: 100%;
+            }
         }
+
     }
 }
-@include mobile-mediaqueries{
-    .row{
-        .columnas{
-            flex: 100%;
-            padding: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
+
+    @include mobile-mediaqueries {
+        .row {
+            .columnas {
+                flex: 100%;
+                padding: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
         }
     }
-}  

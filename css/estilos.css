@@ -54,15 +54,15 @@
   animation-timing-function: var(--fa-animation-timing, ease-in-out);
 }
 
-.row {
+.fondo .row {
   display: flex;
   padding: 5px;
 }
-.row .columnas {
+.fondo .row .columnas {
   flex: 25%;
   padding: 5px;
 }
-.row .columnas img {
+.fondo .row .columnas img {
   margin-top: 5px;
   width: 100%;
 }
