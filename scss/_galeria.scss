@@ -3,6 +3,8 @@
     .row {
         display: $flex;
         padding: 5px;
+        flex-wrap: wrap;
+        
 
         .columnas {
             flex: 25%;
@@ -19,6 +21,8 @@
 
     @include mobile-mediaqueries {
         .row {
+            display: flex;
+            flex-direction: column;
             .columnas {
                 flex: 100%;
                 padding: 5px;
